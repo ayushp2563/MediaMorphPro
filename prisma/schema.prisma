@@ -18,6 +18,7 @@ model Video {
   title          String
   description    String?
   publicId       String
+  url            String
   originalSize   String
   compressedSize String
   duration       Float
